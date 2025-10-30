@@ -1,12 +1,19 @@
-import "../style/Navbar.css"
+import React from 'react';
+import './Navbar.css'; // (optional if you plan to style it)
 
-const Navbar = () => {
-    
-return <p> Navbar</p>
-
-
+function Navbar() {
+  return (
+    <nav className="navbar">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  );
 }
-export default Navbar 
+
+export default Navbar;
 
 
 // must function start with file name 
