@@ -1,13 +1,20 @@
 import React from 'react';
-import './Navbar.css'; // (optional if you plan to style it)
+import './Navbar.css';
 
 function Navbar() {
+  // function that runs when a button is clicked
+  const handleClick = () => {
+    
+    alert("Welcome to the Navbar!");
+  };
+
   return (
     <nav className="navbar">
+
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li onClick={handleClick}>Home</li>
+        <li onClick={handleClick}>About</li>
+        <li onClick={handleClick}>Contact</li>
       </ul>
     </nav>
   );
