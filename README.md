@@ -4,7 +4,6 @@ This repository contains all my practice work while learning **React.js**.
 It includes beginner-friendly examples, core concepts, and mini projects that helped me understand React step-by-step.
 
 ---
-
 ## 📂 Project Structure
 
 ### **01 – React Components and Props**
