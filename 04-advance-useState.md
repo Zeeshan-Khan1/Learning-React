@@ -1,5 +1,3 @@
-1. 7
-markdown
 # Advanced useState
 
 ## Functional Updates
