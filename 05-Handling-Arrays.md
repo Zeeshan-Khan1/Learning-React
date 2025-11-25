@@ -3,7 +3,6 @@
 ## Add to Array
 ```jsx
 const [items, setItems] = useState([]);
-
 const addItem = (newItem) => {
   setItems(prev => [...prev, newItem]); // Spread and add
 };
