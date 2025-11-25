@@ -24,7 +24,6 @@ function UserList() {
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
-
   return (
     <div>
       {users.map(user => (
